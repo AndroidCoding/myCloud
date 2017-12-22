@@ -405,6 +405,10 @@ root.plotData = (selector, data, plot) ->
     .call(plot)
 
 texts = [
+   {key:"cities",file:"cities.csv",name:"Less Cities Population"}
+  {key:"countries",file:"countries.csv",name:"Sorted Countries Population"}
+  {key:"country",file:"country.csv",name:"Country wise Population"}
+  {key:"city",file:"city.csv",name:"City wise Population"}
   {key:"sherlock",file:"top_sherlock.csv",name:"The Adventures of Sherlock Holmes"}
   {key:"aesop",file:"top_aesop.csv",name:"Aesop's Fables"}
   {key:"alice",file:"alice.csv",name:"Alice's Adventures in Wonderland"}
